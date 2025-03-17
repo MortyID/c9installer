@@ -48,3 +48,6 @@ apt install zip -y
 echo "Instalasi NVM dan Node.js selesai! 🎉"
 
 source ~/.bashrc
+source ~/.bashrc
+source ~/.bashrc
+source ~/.bashrc
