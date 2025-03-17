@@ -2,7 +2,6 @@
 
 ipvpsmu=$(curl -s ifconfig.me)  
 echo "$ipvpsmu"
-
 echo -e "\e[1;33m🚀 Mulai Instalasi C9 SDK...\e[0m"
 echo -e "\n🛡️ Mengkonfigurasi Firewall..."
 sudo ufw allow 8080 || error_exit "Gagal membuka port 8080"  
@@ -31,7 +30,7 @@ echo "Akses Cloud9 IDE di: http://$ipvpsmu:8181/ide.html?packed=1"
 echo -e "\e[1;32m✅ Instalasi C9 SDK Selesai!\e[0m"
 node server.js \
     -l "$ipvpsmu:8080" \
-    -a "$username:$password" \
+    -a "a:a" \
     --listen 0.0.0.0 \
     -w "$WORKSPACE_DIR" \
     || error_exit "Gagal menjalankan server C9" 
