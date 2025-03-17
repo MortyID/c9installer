@@ -35,11 +35,14 @@ fi
 echo "Menginstal Node.js versi terbaru..."
 nvm install 20.11.0
 
+nvm use 20.11.0
+nvm alias default 20.11.0
+
 # Verifikasi instalasi Node.js
 echo "Node.js versi: $(node -v)"
 echo "npm versi: $(npm -v)"
 
-source ~/.bashrc
+
 apt install zip -y
 
 echo "Instalasi NVM dan Node.js selesai! 🎉"
