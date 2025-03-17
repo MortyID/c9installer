@@ -51,3 +51,4 @@ source ~/.bashrc
 source ~/.bashrc
 source ~/.bashrc
 source ~/.bashrc
+echo "Node.js versi: $(node -v)"
