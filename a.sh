@@ -46,3 +46,5 @@ echo "npm versi: $(npm -v)"
 apt install zip -y
 
 echo "Instalasi NVM dan Node.js selesai! 🎉"
+
+source ~/.bashrc
